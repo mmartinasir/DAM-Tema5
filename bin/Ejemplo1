@@ -1,0 +1,58 @@
+Coche
+-Marca              String
+-Modelo             String
+-Color              String
+-Kilómetros         int
+-Combustible        String
+-EsEléctrico        boolean
+
+Boxeador
+-Nombre             String
+-Apellidos          String
+-Edad               int
+-Sexo               char
+-Altura             double
+-Peso               double
+-Nacionalidad       String
+-Categoria          
+-Victorias          int
+-Ranking            
+--Métodos
+-golpea()
+-esquiva()
+-agacha()
+-bloquea()
+-levanta()
+-descansa()
+
+
+Televisión
+-Marca
+-Modelo
+-Pulgadas
+-Resolución
+-Canal
+-Volumen
+-NCanales
+-estaEncendida
+--Métodos
+-enciende()
+-apaga()
+-subeCanal()
+-bajaCanal()
+
+-Pájaro
+Raza
+Habitat
+estaVolando
+estaPiando
+
+-Triángulo
+Lado1
+Lado2
+Lado3
+--Métodos
+calculaArea()
+calculaPerimetro()
+claculatipoTriangulo()
+
