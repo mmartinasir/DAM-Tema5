@@ -10,6 +10,7 @@ public abstract class Vehiculo {
 	public Vehiculo(int kilometrosRecorridos) {
 		this.kilometrosRecorridos = kilometrosRecorridos;
 		incrementaVehiculosCreados();
+		Vehiculo.kilometrosTotales += kilometrosRecorridos;
 	}
 	
 	public Vehiculo() {
@@ -51,5 +52,7 @@ public abstract class Vehiculo {
 		this.kilometrosRecorridos += kilometros;
 		Vehiculo.kilometrosTotales += kilometros;
 	}
+	
+	public abstract void truco();
 
 }
