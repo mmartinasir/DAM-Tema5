@@ -12,8 +12,10 @@ public class PilaDePlatos {
 
 	// Methods
 	public PlatoApilable pop() {
+		PlatoApilable aux;
+		aux = this.tope;
 		this.tope = tope.getPlatoAnterior();
-		return this.tope;
+		return aux;
 	}
 
 	public PlatoApilable peek() {
