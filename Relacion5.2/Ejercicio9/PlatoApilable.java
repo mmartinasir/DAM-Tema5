@@ -17,6 +17,14 @@ public class PlatoApilable extends Plato {
 	public void setPlatoAnterior(PlatoApilable platoAnterior) {
 		this.platoAnterior = platoAnterior;
 	}
+
+	//ToString
+	@Override
+	public String toString() {
+		String result = "";
+		result = result+"Plato tipo "+super.getTipo()+" de color "+super.getColor();
+		return result;
+	}	
 	
 	
 
