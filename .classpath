@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Ejemplos"/>
 	<classpathentry kind="src" path="Relacion5.1"/>
 	<classpathentry kind="src" path="Relacion5.2"/>
+	<classpathentry kind="src" path="Ejercicios"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

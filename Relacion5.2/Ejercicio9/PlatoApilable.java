@@ -4,7 +4,8 @@ public class PlatoApilable extends Plato {
 	
 	//Attributes
 	private PlatoApilable platoAnterior;
-
+	
+	//Builders
 	public PlatoApilable(Tipo tipo, String color) {
 		super(tipo, color);
 	}

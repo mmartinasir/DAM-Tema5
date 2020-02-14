@@ -15,6 +15,7 @@ public class PilaDePlatos {
 		PlatoApilable aux;
 		aux = this.tope;
 		this.tope = tope.getPlatoAnterior();
+		tope.setPlatoAnterior(null);
 		return aux;
 	}
 
